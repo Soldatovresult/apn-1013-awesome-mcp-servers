@@ -12,7 +12,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
         mcpShell = pkgs.mkShell {
           buildInputs = with pkgs; [
-            nodejs_20
+            nodejs
             python311
             python311Packages.pip
             git
