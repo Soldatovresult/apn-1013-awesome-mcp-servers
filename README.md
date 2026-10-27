@@ -21,6 +21,7 @@ A curated collection of production-grade **Model Context Protocol (MCP)** server
 ### 3. Utility & Execution Servers
 * **`nixos`**: Native Nix package searching and NixOS configuration evaluation.
 * **`sequential-thinking`**: Dynamic multi-step reasoning buffer and thought tree evaluation server.
+* **[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node)**: Local CLI/stdio MCP payment tools for x402 offer inspection, bounded payment preparation and operation receipts. Apple Silicon macOS + Node.js 24 only; owner approvals/policies and separate network/service fees apply. Install separately with `brew install nuanu-ai/tap/apn`; launch with `apn mcp serve` (not included in the Nix shell).
 
 ---
 
